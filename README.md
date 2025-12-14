@@ -16,6 +16,8 @@ sqlite> CREATE TABLE products (
 (x1...>   created_at TEXT DEFAULT CURRENT_TIMESTAMP
 (x1...> );
 
+
+
 **テーブル定義確認コマンド**
 
 sqlite> .schema
