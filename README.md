@@ -1,4 +1,5 @@
 **実行したSQL文**
+
 sqlite> CREATE TABLE users (
 (x1...>   user_id INTEGER PRIMARY KEY AUTOINCREMENT,
 (x1...>   name TEXT NOT NULL,
@@ -16,6 +17,7 @@ sqlite> CREATE TABLE products (
 (x1...> );
 
 **テーブル定義確認コマンド**
+
 sqlite> .schema
 CREATE TABLE sqlite_sequence(name,seq);
 CREATE TABLE users (
